@@ -1,0 +1,16 @@
+#Spring
+server:
+  shutdown: graceful
+spring:
+  application:
+    name: playoff
+  main:
+    banner-mode: off
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://localhost:5432/
